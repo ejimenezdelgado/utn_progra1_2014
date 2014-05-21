@@ -91,7 +91,6 @@ public class Ciclos {
             System.out.print(suma);
             System.out.print(" _ ");
             suma=suma-1;
-        }while(suma>=0);
-        
+        }while(suma>=0);        
     }    
 }
