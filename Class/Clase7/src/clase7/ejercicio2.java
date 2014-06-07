@@ -93,7 +93,7 @@ public class ejercicio2 {
         String palabraAlrevez="";
         
         for (int i = getCadena().length()-1; i >= 0; i--) {
-            palabraAlrevez+=getCadena().charAt(i);
+            palabraAlrevez+=+getCadena().charAt(i);
         }   
         
         if(getCadena().equals(palabraAlrevez))

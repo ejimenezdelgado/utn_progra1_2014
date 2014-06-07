@@ -9,9 +9,7 @@ package clase7;
 /**
  *
  * @author Jimenez
- * 
- * 
- *  Realizar una clase, que permita cargar una dirección de mail en el constructor, 
+ * Realizar una clase, que permita cargar una dirección de mail en el constructor, 
     luego en otro método mostrar un mensaje si contiene el caracter '@'.
  */
 public class ejercicio1 {
@@ -26,13 +24,12 @@ public class ejercicio1 {
     public String ValidarCorrreo()
     {
         String mensaje="El correo no contiene @";
-        
         for (int i = 0; i < email.length(); i++) {
             if(email.charAt(i)=='@')
             {
                 mensaje="El correo si contiene @";
-            }
+            }            
         }
-        return mensaje;        
+        return mensaje;         
     }    
 }
