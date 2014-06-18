@@ -18,9 +18,9 @@ public class Clase11 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        /*Ejercicio1 oEjercicio1=new Ejercicio1();
+        Ejercicio1 oEjercicio1=new Ejercicio1();
         oEjercicio1.CargarMatriz();
-        oEjercicio1.Imprimir();*/
+        oEjercicio1.Imprimir();
         
         Ejercicio2 oEjercicio2=new Ejercicio2();
         oEjercicio2.CargarMatriz();
