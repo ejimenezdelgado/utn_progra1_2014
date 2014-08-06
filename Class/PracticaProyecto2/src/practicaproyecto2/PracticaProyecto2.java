@@ -43,7 +43,7 @@ public class PracticaProyecto2 {
         equipos.Insertar("Alemania", alemania);
         equipos.Insertar("Costa Rica", costaRica);
         equipos.Imprimir();
-        
+        /*
         System.out.println("Digite el nombre del jugador a buscar de Costa Rica");
         String nombre=teclado.nextLine();
         
@@ -65,7 +65,9 @@ public class PracticaProyecto2 {
         int edad=teclado.nextInt();
         
         costaRica.ModificarJugador(nombre,nombreNuevo,edad);
-        costaRica.Imprimir();
+        costaRica.Imprimir();*/
+        
+        costaRica.Invertir(costaRica.getListaJugadores());
       
         
     }

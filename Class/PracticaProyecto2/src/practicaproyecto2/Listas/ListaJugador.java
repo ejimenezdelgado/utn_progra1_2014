@@ -100,6 +100,17 @@ public class ListaJugador {
             siguienteJugador = siguienteJugador.getSiguienteJugador();
         }
     }
+  
+    public void Invertir(NodoJugador lista) {
+        NodoJugador siguiente = lista;
+        NodoJugador anterior = null;
+        while (lista != null) {
+            siguiente = lista.getSiguienteJugador();
+            lista.setSiguienteJugador(anterior);
+            anterior = lista;
+            lista = siguiente;
+        }
+    }
 
     /**
      * @return the listaJugadores
